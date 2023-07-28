@@ -4,9 +4,9 @@ This repo contains the starter code for the "Notely" application for the "Learn 
 
 ## Local Development
 
-Make sure you're on Go version 1.20+.
+Make sure you're on Go version 1.20 or above.
 
-Create a `.env` file in the root of the project with the following content:
+Create a `.env` file in the root of the project with this following content:
 
 ```bash
 PORT="8000"
