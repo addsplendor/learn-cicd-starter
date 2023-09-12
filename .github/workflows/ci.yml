@@ -1,3 +1,4 @@
+#comment so we have something pushable here.
 name: ci
 
 on:
@@ -14,9 +15,9 @@ jobs:
         uses: actions/setup-go@v4
         with:
           go-version: "1.20"
-          
       - name: Check out code
         uses: actions/checkout@v3
 
       - name: Force Failure
         run: (exit 1)
+
